@@ -137,19 +137,19 @@ public class Ejercicio5 implements ActionListener, WindowListener {
 
 		}
 
-		if (dos.getState()) {
+		else if (dos.getState()) {
 
 			totalPresupuesto += 8000;
 
 		}
 
-		if (tres.getState()) {
+		else if (tres.getState()) {
 
 			totalPresupuesto += 9000;
 
 		}
 
-		if (cuatro.getState()) {
+		else if (cuatro.getState()) {
 
 			totalPresupuesto += 8500;
 
@@ -167,13 +167,13 @@ public class Ejercicio5 implements ActionListener, WindowListener {
 
 		}
 
-		if (siete.getState()) {
+		else if (siete.getState()) {
 
 			totalPresupuesto += 2500;
 
 		}
 
-		if (ocho.getState()) {
+		else if (ocho.getState()) {
 
 			totalPresupuesto += 1500;
 
